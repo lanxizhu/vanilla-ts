@@ -12,6 +12,6 @@
     "emitDeclarationOnly": false,
     "allowImportingTsExtensions": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "dist", "docs", "src/**/*.test.ts"]
+  "include": ["src/**/*.ts", "src/**/*.test.ts"],
+  "exclude": ["node_modules", "dist", "docs"]
 }
