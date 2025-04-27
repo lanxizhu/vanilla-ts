@@ -1,1 +1,1 @@
-console.log("⚗️  Explore Node.js and Typescript!");
+console.log('⚗️  Explore Node.js and Typescript!')
