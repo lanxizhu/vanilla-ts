@@ -40,6 +40,8 @@ jobs:
         with:
           node-version: lts/Hydrogen
           cache: 'pnpm'
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Install dependencies
         run: pnpm install
       - name: Generate docs
@@ -57,8 +59,6 @@ jobs:
     needs: build
     name: Deploy to GitHub Pages
     steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
