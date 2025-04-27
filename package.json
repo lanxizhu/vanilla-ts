@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-ts",
+  "version": "0.0.1",
+  "description": "⚗️ Explore Node.js and Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanxizhu/vanilla-ts.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Typescript"
+  ],
+  "author": "lanxiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanxizhu/vanilla-ts/issues"
+  },
+  "homepage": "https://github.com/lanxizhu/vanilla-ts#readme"
+}
