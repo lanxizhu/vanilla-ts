@@ -7,7 +7,7 @@
   "scripts": {
     "test": "vitest",
     "dev": "tsx src/index.ts",
-    "docs": "typedoc --out docs src/**/*.ts --exclude src/**/*.test.ts --name Vanilla-Ts --favicon public/typescript.png",
+    "docs": "typedoc --out docs src/**/*.ts --name Vanilla-Ts --favicon public/typescript.png",
     "format": "prettier --write ."
   },
   "repository": {
